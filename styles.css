@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 24px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 18px;
+
+    border: darkgrey;
+    border-style: solid;
+    border-width: 1px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    background-color: lightgrey;
+}
+
+#descr {
+    background-color: lightgrey;
+    font-family: Helvetica;
+    font-size: 12px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.content {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: Helvetica;
+    font-size: 10px;
+}
